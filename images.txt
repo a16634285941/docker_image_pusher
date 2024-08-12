@@ -6,7 +6,6 @@ rockylinux:9
 prom/node-exporter:v1.8.1
 prom/prometheus:v2.53.0
 prom/alertmanager:v0.27.0
-gcr.io/cadvisor/cadvisor-arm64:v0.49.1
 nginx:latest
 grafana/grafana:10.0.9
 prom/node-exporter:latest
@@ -24,5 +23,3 @@ php:8-apache
 registry.k8s.io/ingress-nginx/controller:v1.10.1
 nginx:1.26
 busybox:1.36
-registry.k8s.io/metrics-server/metrics-server:v0.7.1
-grafana/grafana：10.0.9
